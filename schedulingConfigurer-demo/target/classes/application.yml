@@ -1,0 +1,15 @@
+
+spring:
+  # 数据源
+  datasource:
+      url: jdbc:mysql://localhost:3306/db_test?&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSl=false
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+
+# mybatis-plus 默认扫描mapper.xml的目录
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  #配置sql打印日志
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
