@@ -5,3 +5,5 @@ spring boot实现定时任务
 spring boot集成Quartz实现定时任务
 ## 2.scheduled-demo
 spring boot使用注解@scheduled实现定时任务
+## 3.schedulingConfigurer-demo
+spring boot通过实现SchedulingConfigurer接口(动态定时任务)来实现定时任务
